@@ -15,9 +15,9 @@ export class AppComponent {
   public appPages = [
     { title: 'Inicio', url: '/home', icon: 'home' },
     { title: 'Personajes', url: '/folder/outbox', icon: 'people' },
-    { title: 'Acerca de', url: '/folder/favorites', icon: 'help' },
-    { title: 'En mi vida', url: '/folder/archived', icon: 'eye' },
-    { title: 'Contrateme', url: '/folder/trash', icon: 'call' },
+    { title: 'Acerca de', url: '/about-serie', icon: 'help' },
+    { title: 'En mi vida', url: '/in-my-life', icon: 'eye' },
+    { title: 'Contrateme', url: '/hire-me', icon: 'call' },
   ];
   constructor() {
     addIcons({homeOutline, homeSharp, peopleOutline, peopleSharp, eyeOutline, eyeSharp, helpOutline, helpSharp, callOutline, callSharp});
