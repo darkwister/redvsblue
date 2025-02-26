@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">redvsblue</string>
+    <string name="title_activity_main">redvsblue</string>
+    <string name="package_name">ionic.redvsblue</string>
+    <string name="custom_url_scheme">ionic.redvsblue</string>
+</resources>

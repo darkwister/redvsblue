@@ -1,0 +1,25 @@
+
+import { Component } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
+import { IonApp, IonSplitPane, IonMenu, IonContent, IonList, IonListHeader, IonNote, IonMenuToggle, IonItem, IonIcon, IonLabel, IonRouterOutlet, IonRouterLink } from '@ionic/angular/standalone';
+import { addIcons } from 'ionicons';
+import {homeSharp, homeOutline, peopleSharp,peopleOutline, eyeSharp, eyeOutline, helpSharp, helpOutline, callSharp, callOutline } from 'ionicons/icons';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.scss'],
+  imports: [RouterLink, RouterLinkActive, IonApp, IonSplitPane, IonMenu, IonContent, IonList, IonListHeader, IonNote, IonMenuToggle, IonItem, IonIcon, IonLabel, IonRouterLink, IonRouterOutlet],
+})
+export class AppComponent {
+  public appPages = [
+    { title: 'Inicio', url: '/home', icon: 'home' },
+    { title: 'Personajes', url: '/folder/outbox', icon: 'people' },
+    { title: 'Acerca de', url: '/folder/favorites', icon: 'help' },
+    { title: 'En mi vida', url: '/folder/archived', icon: 'eye' },
+    { title: 'Contrateme', url: '/folder/trash', icon: 'call' },
+  ];
+  constructor() {
+    addIcons({homeOutline, homeSharp, peopleOutline, peopleSharp, eyeOutline, eyeSharp, helpOutline, helpSharp, callOutline, callSharp});
+  }
+}
