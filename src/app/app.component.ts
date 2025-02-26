@@ -14,7 +14,7 @@ import {homeSharp, homeOutline, peopleSharp,peopleOutline, eyeSharp, eyeOutline,
 export class AppComponent {
   public appPages = [
     { title: 'Inicio', url: '/home', icon: 'home' },
-    { title: 'Personajes', url: '/folder/outbox', icon: 'people' },
+    { title: 'Personajes', url: '/characters', icon: 'people' },
     { title: 'Acerca de', url: '/about-serie', icon: 'help' },
     { title: 'En mi vida', url: '/in-my-life', icon: 'eye' },
     { title: 'Contrateme', url: '/hire-me', icon: 'call' },

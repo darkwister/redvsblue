@@ -7,6 +7,14 @@ export const routes: Routes = [
     pathMatch: 'full',
   },
   {
+    path: 'home',
+    loadComponent: () => import('./pages/home/home.page').then( m => m.HomePage)
+  },
+  {
+    path: 'characters',
+    loadComponent: () => import('./pages/characters/characters.page').then( m => m.CharactersPage)
+  },
+  {
     path: 'about-serie',
     loadComponent: () => import('./pages/about-serie/about-serie.page').then( m => m.AboutSeriePage)
   },
@@ -17,9 +25,5 @@ export const routes: Routes = [
   {
     path: 'hire-me',
     loadComponent: () => import('./pages/hire-me/hire-me.page').then( m => m.HireMePage)
-  },
-  {
-    path: 'home',
-    loadComponent: () => import('./pages/home/home.page').then( m => m.HomePage)
-  },
+  }, 
 ];
