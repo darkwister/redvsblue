@@ -19,4 +19,20 @@
     </ion-menu>
     <ion-router-outlet id="main-content"></ion-router-outlet>
   </ion-split-pane>
+  <ion-fab slot="fixed" vertical="bottom" horizontal="start">
+    <ion-fab-button>
+      <ion-icon name="home"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button [routerLink]="['/characters']">
+        <ion-icon name="people"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button [routerLink]="['/about-serie']">
+        <ion-icon name="help"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button [routerLink]="['/hire-me']">
+        <ion-icon name="call"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
 </ion-app>

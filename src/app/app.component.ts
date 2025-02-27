@@ -1,15 +1,15 @@
 
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { IonApp, IonSplitPane, IonMenu, IonContent, IonList, IonListHeader, IonNote, IonMenuToggle, IonItem, IonIcon, IonLabel, IonRouterOutlet, IonRouterLink } from '@ionic/angular/standalone';
+import { IonApp, IonSplitPane, IonMenu, IonContent, IonList, IonListHeader, IonNote, IonMenuToggle, IonItem, IonIcon, IonLabel, IonRouterOutlet, IonRouterLink, IonFab, IonFabButton, IonFabList } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
-import {homeSharp, homeOutline, peopleSharp,peopleOutline, eyeSharp, eyeOutline, helpSharp, helpOutline, callSharp, callOutline } from 'ionicons/icons';
+import {homeSharp, homeOutline, peopleSharp,peopleOutline, eyeSharp, eyeOutline, helpSharp, helpOutline, callSharp, callOutline, home, help, people, call } from 'ionicons/icons';
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
-  imports: [RouterLink, RouterLinkActive, IonApp, IonSplitPane, IonMenu, IonContent, IonList, IonListHeader, IonNote, IonMenuToggle, IonItem, IonIcon, IonLabel, IonRouterLink, IonRouterOutlet],
+  imports: [RouterLink, RouterLinkActive, IonApp, IonSplitPane, IonMenu, IonContent, IonList, IonListHeader, IonNote, IonMenuToggle, IonItem, IonIcon, IonLabel, IonRouterLink, IonRouterOutlet, IonFab, IonFabButton, IonFabList],
 })
 export class AppComponent {
   public appPages = [
@@ -20,6 +20,6 @@ export class AppComponent {
     { title: 'Contrateme', url: '/hire-me', icon: 'call' },
   ];
   constructor() {
-    addIcons({homeOutline, homeSharp, peopleOutline, peopleSharp, eyeOutline, eyeSharp, helpOutline, helpSharp, callOutline, callSharp});
+    addIcons({home, help, people,call , homeOutline, homeSharp, peopleOutline, peopleSharp, eyeOutline, eyeSharp, helpOutline, helpSharp, callOutline, callSharp});
   }
 }
