@@ -1,16 +1,16 @@
 .slider-container {
     display: flex;
-    overflow-x: auto; /* Permite scroll horizontal */
-    gap: 10px;
-    padding: 10px;
-    padding-right: 30px; /* Agrega espacio al final para mostrar el último elemento */
+    overflow-x: auto;
+    gap: 5px;
+    padding: 5px;
+    padding-right: 5px;
   }
   
   .slider-item {
     flex: 0 0 auto;
     width: 360px;
     height: 210px;
-    scroll-snap-align: start; /* Asegura que cada elemento se detenga correctamente */
+    scroll-snap-align: start;
   }
   
   .slider-container {
