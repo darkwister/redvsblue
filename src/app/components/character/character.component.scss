@@ -1,4 +1,25 @@
-ion-avatar{
+ion-avatar {
     --border-radius: 20px;
     --padding: 10px;
+    align-self: center;
 }
+ion-card-header {
+    padding: 10px;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+ion-card {
+max-width: 80%;
+overflow-x: auto; /* Evita desplazamiento no deseado */
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+ion-card-content {
+flex-grow: 1;
+text-align: center;
+}
+
+
+
