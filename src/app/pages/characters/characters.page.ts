@@ -67,16 +67,32 @@ export class CharactersPage implements OnInit {
       faction: "Blues",
       image: "assets/images/characters/church.jpg",
       moments: [
-        
+        {
+          url: 'https://www.youtube.com/embed/1Y3d3Ulel00?si=dY3DSs9DKl85CfAw'
+        },
+        {
+          url: 'https://www.youtube.com/embed/21QPs0-2dUs?si=TPQnOLwHIuNrltxF'
+        },
+        {
+          url: 'https://www.youtube.com/embed/WsZ-3RE1YsU'
+        }
       ]
     },
     {
       name: 'Agente Texas "Tex"',
-      faction: "Blues",
+      faction: "Blues / Freelancer",
       description: 'Tex o en algunas ocaciones Allison. Una agente freelancer normalmente agrupada con el equipo azul de Blood Gulch, una mujer, mas tarde revelada como la inteligencia artificial "Program Beta", uno de los personajes mas letales y habilidoso en la serie, dado el hecho que es una mercenaria freelancer, con su entrenamiento y capacidades es uno de los miembros mas letales de el equipo azul de Blood Gulch.',
       image: "assets/images/characters/tex.jpg",
       moments: [
-        
+        {
+          url: 'https://www.youtube.com/embed/DlLlXyzEr14?si=vum9LEwotYxRS-zO'
+        },
+        {
+          url: 'https://www.youtube.com/embed/xHBCUMMZS5g?si=Jr3mTecKJ434s_rq'
+        },
+        {
+          url: 'https://www.youtube.com/embed/4F2s8qSF3sg?si=cN8V7JFQyneVyuMx'
+        }
       ]
     },
     {
@@ -85,7 +101,15 @@ export class CharactersPage implements OnInit {
       description: 'El agresivo e ilogico lider del equipo rojo, el unico que toma enserio al batalla contra el equipo azul, un militar a cargo del equipo rojo, ademas de ser el unico que muestra gran disciplina entre los soldados presentes en Blood Gulch. Es algo sociopata, sanguinario y un poco excentrico. Su relacion con sus otros miembros del equipo es rapidamente fundamentada al comparar el vehiculo "Warthog" con un Puma.',
       image: "assets/images/characters/sarge.jpg",
       moments: [
-        
+        {
+          url: 'https://www.youtube.com/embed/1YyTRV46yHg'
+        },
+        {
+          url: 'https://www.youtube.com/embed/DS1736t5clE?si=AKDM5Ei48tLNFABv'
+        },
+        {
+          url: 'https://www.youtube.com/embed/ngpny5MaYcc?si=0Y3jy5AAGJWYAfTJ'
+        }
       ]
     },
     {
@@ -94,7 +118,15 @@ export class CharactersPage implements OnInit {
       description: 'Usualmente la cabeza pensante y cuerda del equipo rojo, ademas de ser un sociopata compulsivo como su lider y un adulador del mismo, a pesar de el delirantee liderazgo de este ultimo. A pesar de las personalidades tan diferentes que tienen el y su compañero Grif, tienen una amistad bastante solida, incluso compartiendo algunas ideas en varios puntos de la serie.',
       image: "assets/images/characters/simmons.jpg",
       moments: [
-        
+        {
+          url: 'https://www.youtube.com/embed/rhfPpaKzLsg?si=Z6WOQy6O2dp-MMLY'
+        },
+        {
+          url: 'https://www.youtube.com/embed/YcRW7iNtFKI'
+        },
+        {
+          url: 'https://www.youtube.com/embed/8PUIXu3M37M'
+        }
       ]
     },
     {
@@ -103,7 +135,15 @@ export class CharactersPage implements OnInit {
       description: 'El rebelde Grif, con una tendencia a no acatar ordenes de Sarge y a hacer comentarios sarcasticos a expensas de sus miembros de equipo, pasa la mayor parte de su tiempo con Simmons, con el cual tiene una amistad bastante curiosa, Apesar de su constante pereza la cual causa problemas a sus compañeros, constantemente esta echandose la culpa de las cosas que le pasan a su equipo, a pesar de la cantidad real de culpa que tiene sobre estas, es un gran amigo de Simmons a pesar de su diferencia de personalidad, comparatiendo ideas y curiosidades con este ultimo.',
       image: "assets/images/characters/grif.jpg",
       moments: [
-        
+        {
+          url: 'https://www.youtube.com/embed/YGLgrN_lzRg?si=AGDsGURQfchKVeXf'
+        },
+        {
+          url: 'https://www.youtube.com/embed/jrkiguHDZzM'
+        },
+        {
+          url: 'https://www.youtube.com/embed/GVhsSHuTL5k?si=rDkc16U5Ful75Ntp'
+        }
       ]
     }
   ]
