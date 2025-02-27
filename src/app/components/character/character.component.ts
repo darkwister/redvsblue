@@ -23,5 +23,6 @@ export interface Character {
   description: string;
   faction: string;
   image: string;
+  actor: string;
   moments: momentsList[];
 }
