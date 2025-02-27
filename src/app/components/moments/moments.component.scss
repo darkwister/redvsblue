@@ -1,0 +1,20 @@
+.slider-container {
+    display: flex;
+    overflow-x: auto; /* Permite scroll horizontal */
+    gap: 10px;
+    padding: 10px;
+    padding-right: 30px; /* Agrega espacio al final para mostrar el último elemento */
+  }
+  
+  .slider-item {
+    flex: 0 0 auto;
+    width: 360px;
+    height: 210px;
+    scroll-snap-align: start; /* Asegura que cada elemento se detenga correctamente */
+  }
+  
+  .slider-container {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    scrollbar-width: auto;
+  }
+  
