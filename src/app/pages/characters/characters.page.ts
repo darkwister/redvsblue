@@ -9,14 +9,15 @@ import { CharacterComponent, Character } from 'src/app/components/character/char
   templateUrl: './characters.page.html',
   styleUrls: ['./characters.page.scss'],
   standalone: true,
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, CharacterComponent, IonItem, IonList]
+  imports: [ IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, CharacterComponent, IonItem, IonList]
 })
 export class CharactersPage implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }
+
   personajes: Character[] = [
     {
       name: 'Michael J. Caboose',

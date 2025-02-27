@@ -12,7 +12,8 @@ import { IonContent, IonHeader, IonTitle, IonToolbar, IonText, IonList, IonListH
 })
 export class AboutSeriePage implements OnInit {
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit() {
   }
