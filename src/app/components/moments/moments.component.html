@@ -1,6 +1,6 @@
 <ion-grid>
   <ion-row class="slider-container">
-    <ion-col *ngFor="let moment of moments; let i = index" class="slider-item">
+    <ion-col *ngFor="let moment of moments; let i = index" size="auto" class="slider-item">
       <iframe [src]="safeUrls[i]" width="310px" height="210px" frameborder="1"></iframe>
     </ion-col>
   </ion-row>
