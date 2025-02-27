@@ -1,3 +1,13 @@
-<p>
-  character works!
-</p>
+<ion-card *ngIf="character">
+  <ion-avatar>
+    <img src="{{ character.image }}" alt="{{ character.name }}">
+  </ion-avatar>
+  <ion-card-header>
+    <ion-card-title>{{ character.name }}</ion-card-title>
+    <ion-card-subtitle>{{ character.faction }}</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    <p>{{ character.description }}</p>
+  </ion-card-content>
+  <app-moments [moments]="character.moments"></app-moments>
+</ion-card>
